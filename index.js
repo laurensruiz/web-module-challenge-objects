@@ -112,7 +112,8 @@ function addReview(arr, name, rating, feedback){
     rating: rating,
     feedback: feedback 
   }
-  return arr.push(b)
+  arr.push(b);
+  return arr
 };
 
 console.log(addReview(testArr,'Daniela', 5, 'Cool'))
